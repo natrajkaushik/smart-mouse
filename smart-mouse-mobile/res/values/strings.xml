@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">SmartMouse - Convert your android device into a remote controller !</string>
+    <string name="app_name">SmartMouse</string>
+    <string name="roll">Roll</string>
+    <string name="pitch">Pitch</string>
+    <string name="yaw">Yaw</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+
+</resources>

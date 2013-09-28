@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:background="@android:drawable/bottom_bar"
+        android:orientation="horizontal"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingTop="5.0dip"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/Roll"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/roll" />
+
+        <Button
+            android:id="@+id/Pitch"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/pitch" />
+
+        <Button
+            android:id="@+id/Yaw"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/yaw" />
+
+        <Button
+            android:id="@+id/Minus"
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/minus" />
+
+        <Button
+            android:id="@+id/Plus"
+            android:layout_width="0.0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:text="@string/plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:drawable/bottom_bar"
+        android:orientation="horizontal"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingTop="5.0dip"
+        android:visibility="visible" >
+    </LinearLayout>
+
+    <com.ninja.SmartMouseView
+        android:id="@+id/myview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linear"
+        android:adjustViewBounds="true" />
+
+</RelativeLayout>

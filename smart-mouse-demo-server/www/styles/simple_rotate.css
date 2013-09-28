@@ -1,0 +1,53 @@
+	#myBox1{
+			position : absolute;
+		}
+
+    #myBox2{
+      position : absolute;
+    }
+
+    #myBox3{
+      position : absolute;
+    }
+
+    #myBox4{
+      position : absolute;
+    }
+
+    #demo1{
+      position : absolute;
+      width: 920px;
+      height:450px;
+      left: 2px;
+      background-color: #F1F1F1;
+      border : 2px solid green;
+    }
+
+    #demo2{
+      position : absolute;
+      width: 920px;
+      height:450px;
+      left: 930px;
+      background-color: #F1F1F1;
+      border : 2px solid green;
+    }
+
+    #demo3{
+      position : absolute;
+      width: 920px;
+      height:450px;
+      left: 2px;
+      top : 470px;
+      background-color: #F1F1F1;
+      border : 2px solid green;
+    }
+
+    #demo4{
+      position : absolute;
+      width: 920px;
+      height:450px;
+      left: 930px;
+      top : 470px;
+      background-color: #F1F1F1;
+      border : 2px solid green;
+    }
